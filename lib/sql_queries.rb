@@ -20,10 +20,14 @@ end
 
 def selects_most_prominent_color_and_returns_with_count
   "SELECT color, COUNT(color) FROM bears GROUP BY color;"
+  
+  
 end
 
 def counts_number_of_bears_with_goofy_temperaments
   "COUNT FROM bears WHERE temperament FROM bears = 'goofy';"
+  
+  
 end
 
 def selects_bear_that_killed_Tim
